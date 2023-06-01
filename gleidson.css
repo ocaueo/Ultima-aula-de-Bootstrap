@@ -1,0 +1,37 @@
+.navbar .btn{
+    width: 44px;
+    height: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+#contatos{
+    width: 100%;
+    overflow: hidden;
+}
+
+#contatos .row{
+    padding: 14px;
+}
+
+#contatos .col:nth-child(odd){
+    background-color: #00000015;
+}
+
+#contatos .plus-btn{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    position: fixed;
+    bottom: 30px;
+    right: 16px;
+}
+
+#contatos .plus-btn.bg-primary:hover{
+    color: red;
+}
